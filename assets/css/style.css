@@ -1,0 +1,37 @@
+body {
+    background-color: #bb3c39;
+}
+
+.container {
+    margin-top: 10%;
+}
+
+.input-group-text {
+    border-radius: 50px;
+    background-color: transparent; /* Added transparency */
+    color: white;
+    border-left: transparent 0px;
+    border-right: transparent 0px;
+}
+
+.form-control {
+    border-radius: 50px;
+    background-color: transparent; /* Added transparency */
+    color: white;
+    border-left: transparent 0px;
+    border-right: transparent 0px;
+}
+
+.form-control:focus {
+    background-color: transparent; /* Added transparency */
+    color: white;
+}
+
+.btn {
+    border-radius: 50px;
+}
+
+h4 {
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
