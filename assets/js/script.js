@@ -43,8 +43,6 @@ function search(query) {
       query +
       ". Silahkan coba lagi.";
   }
-  searchContents.textContent =
-    "Hasil pencarian untuk: " + query;
-  searchResults.textContent =  
-    result;
+  searchContents.textContent = "Hasil pencarian untuk: " + query;
+  searchResults.textContent = result;
 }
