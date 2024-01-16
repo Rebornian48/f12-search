@@ -10,16 +10,16 @@ body {
     border-radius: 50px;
     background-color: transparent; /* Added transparency */
     color: white;
-    border-left: transparent 0px;
-    border-right: transparent 0px;
+    border-left: transparent;
+    border-right: transparent;
 }
 
 .form-control {
     border-radius: 50px;
     background-color: transparent; /* Added transparency */
     color: white;
-    border-left: transparent 0px;
-    border-right: transparent 0px;
+    border-left: transparent;
+    border-right: transparent;
 }
 
 .form-control:focus {
