@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QF6QHSQGFP"></script>
+    <script
+      type="text/javascript"
+      nonce="01ac858fafcb4f6a9ca7e41940f"
+      src="//injections.adguard.org?ts=1705494697081&amp;type=content-script&amp;dmn=rebornian48.github.io&amp;url=https%3A%2F%2Frebornian48.github.io%2FCekNIK%2F&amp;app=msedge.exe&amp;css=3&amp;js=1&amp;rel=1&amp;rji=1&amp;sbe=1"
+    ></script>
+    <script
+      type="text/javascript"
+      nonce="01ac858fafcb4f6a9ca7e41940f"
+      src="//injections.adguard.org?ts=1705494697081&amp;name=AdGuard%20Extra&amp;name=AdGuard%20Popup%20Blocker&amp;type=user-script"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag("js", new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag("config", "G-QF6QHSQGFP");
+      gtag("config", "G-QF6QHSQGFP");
     </script>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="Content-Script-Type" content="text/javascript" />
@@ -19,47 +27,88 @@
     <meta http-equiv="pragma" content="no-cache" />
     <meta http-equiv="Cache-Control" content="no-cache" />
     <meta name="author" content="Rebornian48" />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search Page</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flowe12ful Search Page by Rebornian48</title>
 
-<body>
-    <div class="container text-center">
-        <img src="./assets/img/flowerful.png" alt="flowerful" class="img-fluid">
-        <form id="searchForm">
-            <div class="mb-3">
-                <h4><i class="bi bi-geo-alt"></i>GRAHA UNESA SURABAYA</h4>
-                <h4><i class="bi bi-clock"></i> 17 DESEMBER 2023</h4>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <div class="hero min-h-screen bg-red-900">
+      <div class="hero-content text-center">
+        <div class="max-w">
+          <img src="./assets/img/flowerful.png" alt="flowerful" />
+          <h1 class="text-5xl">&nbsp;</h1>
+          <label class="form-control">
+            <div id="searchForm">
+              <div class="join">
+                <button
+                  class="input input-ghost input-bordered join-item rounded-l-full"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+                    />
+                  </svg>
+                </button>
+                <input
+                  type="text"
+                  id="searchinput"
+                  class="input input-ghost input-bordered join-item"
+                  placeholder="Cari apa?"
+                />
+                <button
+                  class="input input-ghost input-bordered join-item rounded-r-full"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M12 18.75a6 6 0 0 0 6-6v-1.5m-6 7.5a6 6 0 0 1-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 0 1-3-3V4.5a3 3 0 1 1 6 0v8.25a3 3 0 0 1-3 3Z"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <p>&nbsp;</p>
+              <button id="searchBtn" class="btn btn-warning">Search</button>
             </div>
-            <div class="input-group mb-3">
-                <span class="input-group-text" id="basic-addon1"><i class="bi bi-search"></i></span>
-                <input type="text" id="searchInput" class="form-control">
-                <span class="input-group-text"><i class="bi bi-mic"></i></span>
-            </div>
-            <div class="mb-3">
-                <button type="submit" class="btn btn-warning">Search</button>
-            </div>
-            <h4>
-                <div class="mb-3" id="searchContents"></div>
-                <div class="mb-3" id="searchResults"></div>
-            </h4>
-        </form>
+          </label>
+          <h1 class="text-5xl">&nbsp;</h1>
+          <div class="mb-3" id="searchContents"></div>
+          <div class="mb-3" id="searchResults"></div>
+          <h1 class="text-5xl">&nbsp;</h1>
+          <footer>
+            <p class="text-center">
+              Dibangun oleh
+              <a href="https://rebornian48.github.io/">Rebornian48</a>
+            </p>
+          </footer>
+        </div>
+      </div>
     </div>
-
     <script src="./assets/js/script.js"></script>
-    <!-- Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-
-</body>
-
+  </body>
 </html>

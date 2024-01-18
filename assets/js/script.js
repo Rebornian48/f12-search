@@ -1,21 +1,17 @@
-document
-  .getElementById("searchForm")
-  .addEventListener("submit", function (event) {
-    event.preventDefault();
-    var query = document.getElementById("searchInput").value;
-    search(query);
-  });
-
+var btn = document.getElementById("searchBtn");
+btn.addEventListener("click", search);
 /**
  * Description placeholder
  * @date 1/15/2024 - 3:19:23 PM
  *
  * @param {*} query
  */
-function search(query) {
+function search() {
   // Perform search logic here
   // You can use AJAX to fetch search results from a server or perform client-side filtering
   // Display the search results in the 'searchResults' div
+  var searchInput = document.getElementById("searchinput");
+  var query = searchInput.value;
   var searchResults = document.getElementById("searchResults");
   var searchContents = document.getElementById("searchContents");
   if (query == "flowerful" || query == "Flowerful" || query == "FLOWERFUL") {

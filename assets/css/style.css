@@ -1,37 +1,3 @@
-body {
-    background-color: #bb3c39;
-}
-
-.container {
-    margin-top: 10%;
-}
-
-.input-group-text {
-    border-radius: 50px;
-    background-color: transparent; /* Added transparency */
-    color: white;
-    border-left: transparent;
-    border-right: transparent;
-}
-
-.form-control {
-    border-radius: 50px;
-    background-color: transparent; /* Added transparency */
-    color: white;
-    border-left: transparent;
-    border-right: transparent;
-}
-
-.form-control:focus {
-    background-color: transparent; /* Added transparency */
-    color: white;
-}
-
-.btn {
-    border-radius: 50px;
-}
-
-h4 {
-    color: white;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+.input-bordered{
+    border-color: white;
 }
